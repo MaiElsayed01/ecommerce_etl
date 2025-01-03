@@ -1,3 +1,5 @@
+create database ecommerce_dwh;
+use ecommerce_dwh;
 
 create table user_dim(
 	user_key int constraint UserKey_CIndx primary key,
@@ -45,9 +47,15 @@ create table date_dim (
     year int,  
 	quarter int,
     month int,  
-    day int,  
-	hour int
+    day int, 
 );
+
+create table time_dim (
+    time_key int constraint TimeKey_CIndx primary key,  
+    hour int,  
+);
+
+
     
 create table order_fact (
     order_key int constraint OrderKey_CIndx primary key,
@@ -56,6 +64,7 @@ create table order_fact (
     seller_key int not null foreign key references seller_dim(seller_key),
     payment_key int not null foreign key references payment_dim(payment_key),
     order_date_key int not null foreign key references date_dim(date_key),
+	order_time_key int not null foreign key references time_dim(time_key), 
     pickup_date_key int not null foreign key references date_dim(date_key),
     delivered_date_key int not null foreign key references date_dim(date_key),
     estimated_time_delivery_key int not null foreign key references date_dim(date_key),
