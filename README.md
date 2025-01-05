@@ -1,6 +1,6 @@
-# Ecommerce Data Warehouse ETL Project
+## Ecommerce Data Warehouse ETL Project
 
-### This project is an ETL (Extract, Transform, Load) pipeline designed to process ecommerce data and load it into a data warehouse for analysis. The project answers key business questions such as peak season analysis, user behavior, payment preferences, delivery performance, and more.
+This project is an ETL (Extract, Transform, Load) pipeline designed to process ecommerce data and load it into a data warehouse for analysis. The project answers key business questions such as peak season analysis, user behavior, payment preferences, delivery performance, and more.
 
 ---
 
