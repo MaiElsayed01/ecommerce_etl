@@ -76,12 +76,11 @@ create table order_fact (
     total_order_value float not null,
 	order_item_count int not null
 );
-  
+ 
 create table order_item_fact(
 	order_item_key int constraint pk_orderitem primary key,
-	order_id varchar(32) not null,
+	order_key int not null,
 	order_item_id int not null,
-	customer_key int not null foreign key references customer_dim(customer_key),
 	product_key int not null foreign key references product_dim(product_key),
 	seller_key int not null foreign key references seller_dim(seller_key),
 	price float,
