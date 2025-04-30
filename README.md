@@ -67,6 +67,13 @@ This project processes ecommerce data from multiple sources, transforms it into 
 ![](images/dimension%20model.jpg)
 
 --- 
+## Visualization
+
+Payment Report
+![1.0](https://github.com/user-attachments/assets/cf36395e-6ac0-4aae-a779-cb20337fef8d)
+![1.1](https://github.com/user-attachments/assets/d7a437ac-5cf9-4c5a-88d9-27f0ad5be4ba)
+![1.2](https://github.com/user-attachments/assets/26d447c3-6916-4d66-9500-fe467b109c13)
+---
 
 ## Setup and Installation
 ##### Prerequisites
