@@ -73,6 +73,12 @@ Payment Report
 ![1.0](https://github.com/user-attachments/assets/cf36395e-6ac0-4aae-a779-cb20337fef8d)
 ![1.1](https://github.com/user-attachments/assets/d7a437ac-5cf9-4c5a-88d9-27f0ad5be4ba)
 ![1.2](https://github.com/user-attachments/assets/26d447c3-6916-4d66-9500-fe467b109c13)
+
+Feedback Report
+![2.0](https://github.com/user-attachments/assets/e9a0f2d7-3e20-4572-ae15-6cf6dba43fb1)
+![2.1](https://github.com/user-attachments/assets/db3e7e4b-b6b5-4e08-adb6-d8a5ec6150a2)
+![2.2](https://github.com/user-attachments/assets/542a3df3-16cb-47e9-afe2-8dc3b815b020)
+![2.3](https://github.com/user-attachments/assets/e21e1595-5f97-4789-a59e-87f4e079c918)
 ---
 
 ## Setup and Installation
